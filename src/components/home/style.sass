@@ -1,102 +1,102 @@
-.wrapper
-	max-width: 1080px
-	margin: 0 auto
-	padding-top: 342px
-	width: 100%
-	height: 100vh
-	background-image: url('../images/bg.webp')
-	background-size: 100% 100%
-	background-position: center
-	background-repeat: no-repeat
-	.title
-		font-size: 73px
-		text-align: center
-		color: #EA1F27
-		letter-spacing: -1.5px
-	.relative
-		position: relative
-		width: 100%
-		height: 100%
-		.wrapper-container,
-		.wrapper-firework,
-		.wrapper-content
-			position: absolute
-			top: 0
-			left: 0
-			width: 100%
-		.wrapper-container
-			padding: 0 40px
-			opacity: 1
-			visibility: visible
-			transition: ease-in-out all .5s
-			.buttonn-click
-				position: relative
-				width: 550px
-				height: 550px
-				margin: 0 auto
-				margin-top: 50px
-				display: flex
-				justify-content: center
-				a
-					width: 100%
-					height: 100%
-					img
-						width: 100%
-						height: 100%
-			&.active
-				opacity: 0
-				visibility: hidden
-		.wrapper-firework
-			width: 100%
-			height: 100%
-			opacity: 0
-			visibility: hidden
-			&.active
-				opacity: 1
-				visibility: visible
-			.firework-gif
-				width: 100%
-				height: 50%
-				background-image: url('../images/firework.gif')
-				background-repeat: no-repeat
-				background-size: cover
-				background-position: center
-				background-blend-mode: multiply
-				mix-blend-mode: multiply
-		.wrapper-content
-			padding-top: 178px
-			width: 100%
-			height: 100%
-			opacity: 0
-			visibility: hidden
-			transition: all ease-in-out .5s
-			&.active
-				opacity: 1
-				visibility: visible
-@media screen and ( min-width: 1081px)
-	.wrapper
-		max-width: 600px
-		padding-top: 180px
-		.title
-			font-size: 39px
-		.relative
-			.wrapper-container
-				.buttonn-click
-					width: 250px
-					height: 250px
-			.wrapper-content
-				padding-top: 100px
-@media (max-width: 768.98px ) and ( min-width: 320px)
-	.wrapper
-		padding-top: 150px
-		.title
-			font-size: 27px
-		.relative
-			.wrapper-container
-				padding: 0 16px
-				.buttonn-click
-					margin-top: 30px
-					width: 250px
-					height: 250px
-			.wrapper-content
-				padding-top: 100px
+// .wrapper
+// 	max-width: 1080px
+// 	margin: 0 auto
+// 	padding-top: 342px
+// 	width: 100%
+// 	height: 100vh
+// 	background-image: url('../images/bg.webp')
+// 	background-size: 100% 100%
+// 	background-position: center
+// 	background-repeat: no-repeat
+// 	.title
+// 		font-size: 73px
+// 		text-align: center
+// 		color: #EA1F27
+// 		letter-spacing: -1.5px
+// 	.relative
+// 		position: relative
+// 		width: 100%
+// 		height: 100%
+// 		.wrapper-main,
+// 		.wrapper-firework,
+// 		.wrapper-content
+// 			position: absolute
+// 			top: 0
+// 			left: 0
+// 			width: 100%
+// 		.wrapper-main
+// 			padding: 0 40px
+// 			opacity: 1
+// 			visibility: visible
+// 			transition: ease-in-out all .5s
+// 			.buttonn-click
+// 				position: relative
+// 				width: 550px
+// 				height: 550px
+// 				margin: 0 auto
+// 				margin-top: 50px
+// 				display: flex
+// 				justify-content: center
+// 				a
+// 					width: 100%
+// 					height: 100%
+// 					img
+// 						width: 100%
+// 						height: 100%
+// 			&.active
+// 				opacity: 0
+// 				visibility: hidden
+// 		.wrapper-firework
+// 			width: 100%
+// 			height: 100%
+// 			opacity: 0
+// 			visibility: hidden
+// 			&.active
+// 				opacity: 1
+// 				visibility: visible
+// 			.firework-gif
+// 				width: 100%
+// 				height: 50%
+// 				background-image: url('../images/firework.gif')
+// 				background-repeat: no-repeat
+// 				background-size: cover
+// 				background-position: center
+// 				background-blend-mode: multiply
+// 				mix-blend-mode: multiply
+// 		.wrapper-content
+// 			padding-top: 178px
+// 			width: 100%
+// 			height: 100%
+// 			opacity: 0
+// 			visibility: hidden
+// 			transition: all ease-in-out .5s
+// 			&.active
+// 				opacity: 1
+// 				visibility: visible
+// @media screen and ( min-width: 1081px)
+// 	.wrapper
+// 		max-width: 540px
+// 		padding-top: 180px
+// 		.title
+// 			font-size: 39px
+// 		.relative
+// 			.wrapper-main
+// 				.buttonn-click
+// 					width: 250px
+// 					height: 250px
+// 			.wrapper-content
+// 				padding-top: 100px
+// @media (max-width: 768.98px ) and ( min-width: 320px)
+// 	.wrapper
+// 		padding-top: 150px
+// 		.title
+// 			font-size: 27px
+// 		.relative
+// 			.wrapper-main
+// 				padding: 0 16px
+// 				.buttonn-click
+// 					margin-top: 30px
+// 					width: 250px
+// 					height: 250px
+// 			.wrapper-content
+// 				padding-top: 100px

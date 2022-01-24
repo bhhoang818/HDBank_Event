@@ -1,0 +1,164 @@
+.wrapper-container
+	position: relative
+	max-width: 1080px
+	margin: 0 auto
+	width: 100%
+	height: 100vh
+	background: rgba(0, 0, 0, 0.2)
+	backdrop-filter: blur(50px)
+	padding-top: 180px
+	background-image: url('../images/bg-lixi.jpg')
+	background-size: 100% 100%
+	background-position: center
+	background-repeat: no-repeat
+
+	.qrcode-box
+		position: relative
+		z-index: 1
+		max-width: 626px
+		width: 100%
+		height: 1000px
+		margin: 0 auto
+		border-radius: 8px
+		.bg-qrcode
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			z-index: 1
+			img
+				width: 100%
+				height: 100%
+				border-radius: 8px
+		.qrcode-content
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+			padding-top: 80px
+			z-index: 2
+			display: flex
+			align-items: center
+			flex-direction: column
+			.qrcode-title
+				margin-bottom: 40px
+				p
+					font-weight: bold
+					font-size: 32px
+					color: #212B36
+			.qrcode-img
+				width: 316px
+				height: 316px
+				margin-bottom: 40px
+				img
+					width: 100%
+					height: 100%
+			.qrcode-desc
+				p
+					font-weight: bold
+					font-size: 20px
+					color: #454F5B
+			.message
+				position: absolute
+				bottom: -40px
+				left: 50%
+				transform: translateX(-50%)
+				p
+					color: #fff
+					font-size: 16px
+					white-space: nowrap
+	.envelope-box
+		position: absolute
+		bottom: 0
+		left: 50%
+		transform: translateX(-50%)
+		max-width: 952px
+		width: 100%
+		height: 991px
+		display: flex
+		align-items: flex-end
+		img
+			width: 100%
+			height: 90%
+@media screen and ( min-width: 1081px)
+	.wrapper-container
+		max-width: 540px
+		padding-top: 60px
+		.qrcode-box
+			max-width: 350px
+			width: 100%
+			height: 500px
+			.qrcode-content
+				padding-top: 32px
+				.qrcode-title
+					margin-bottom: 16px
+					p
+						font-size: 24px
+				.qrcode-img
+					width: 150px
+					height: 150px
+				.qrcode-desc
+					text-align: center
+					padding: 0 40px
+					p
+						font-size: 20px
+		.envelope-box
+			max-width: 500px
+			height: auto
+@media screen and (max-width: 360px )
+	.wrapper-container
+		padding-top: 40px
+		.qrcode-box
+			max-width: 260px
+			min-height: 379px
+			height: 100%
+			.qrcode-content
+				padding-top: 40px
+				.qrcode-img
+					margin-bottom: 16px
+					width: 100px
+					height: 100px
+				.qrcode-title
+					margin-bottom: 16px
+					p
+						font-size: 18px
+				.qrcode-desc
+					text-align: center
+					padding: 0 40px
+					p
+						font-size: 12px
+
+		.envelope-box
+			max-width: 300px
+			height: auto
+
+@media (max-width: 768.98px ) and ( min-width: 375px)
+	.wrapper-container
+		padding-top: 80px
+		.qrcode-box
+			max-width: 300px
+			min-height: 479px
+			height: 100%
+			.qrcode-content
+				padding-top: 40px
+				.qrcode-img
+					margin-bottom: 16px
+					width: 158px
+					height: 158px
+				.qrcode-title
+					margin-bottom: 16px
+					p
+						font-size: 18px
+				.qrcode-desc
+					p
+						font-size: 12px
+				.message
+					p
+						white-space: nowrap
+		.envelope-box
+			max-width: 400px
+			height: auto
+			img
+				height: 100%
